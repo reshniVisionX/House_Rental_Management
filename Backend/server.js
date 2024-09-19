@@ -4,10 +4,11 @@ const cors = require('cors');
 const session = require('express-session');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+require('dotenv').config();
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:3000', 
+    origin: process.env.CLIENT_PORT, 
     methods: ['GET', 'POST', 'DELETE', 'PATCH', 'PUT'],
     credentials: true,
 }));
@@ -25,7 +26,7 @@ app.use(session({
     }
 }));
 
-const url = "mongodb://0.0.0.0:27017/Rentify";
+const url = process.env.CONNECTION_URL ;
 mongoose.connect(url);
 const con = mongoose.connection;
 
