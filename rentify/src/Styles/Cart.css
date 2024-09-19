@@ -1,0 +1,14 @@
+.grp-desc{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.amenities{
+    flex:2;
+    padding: 2px;
+}
+.description-btn{
+    flex:1;
+    padding: 2px;
+    
+}

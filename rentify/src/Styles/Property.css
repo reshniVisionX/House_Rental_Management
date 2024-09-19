@@ -1,0 +1,96 @@
+.property{
+    margin-top: 20px;
+}
+
+.property-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.property-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.property-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.property-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.property-details {
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+}
+
+.property-city {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #555;
+}
+
+.property-place {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #777;
+}
+
+.property-rooms,
+.property-area,
+.property-status,
+.property-owner,
+.property-booking {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #444;
+}
+
+.places-near-title {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.places-near-list {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.places-near-item {
+    font-size: 1em;
+    color: #555;
+}
+
+.book-button {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-button:hover {
+    background-color: #0056b3;
+}

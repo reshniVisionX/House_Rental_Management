@@ -1,0 +1,26 @@
+.booking-image{
+    height: 200px;
+    width: 300px;
+}
+.booking-card{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid plum;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.74);
+    margin-bottom: 55px;
+}
+.Booking-left{
+    flex:2;
+}
+.Booking-right{
+   flex:2;
+   text-align: left;
+   line-height: 35px;
+}
+.header-text{
+    color: blueviolet;
+}
+.my-bookings{
+    margin: 10%;
+}

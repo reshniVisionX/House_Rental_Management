@@ -1,0 +1,120 @@
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    bottom:0;
+    background-color: rgba(248, 247, 249, 0.89);
+}
+
+.signup-container{
+    display : flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	font-family: 'Montserrat', sans-serif;
+    box-shadow: 2px 3px 4px 5px rgba(157, 156, 156, 0.806); 
+    width:50%;
+    height:370px;
+    position: relative;
+    margin-top: 20%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.signup-title{
+    font-weight: 800;
+    text-shadow: 2px 2px rgb(141, 134, 134);
+    font-size: 18px;
+    color: #e0e0e0;
+    height: 30px;
+}
+.form-control{
+    width: max-content;
+    height:30px;
+    background-color: rgba(254, 253, 253, 0.07);
+    color: aliceblue;
+    font-size: medium;
+    border-radius: 7px;
+    padding: 0 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+::placeholder{
+    color: #e0e0e0;
+}
+.forgot-password{
+    color: #fbfbfc;
+    text-decoration: none;
+}
+
+.signup-img{
+    flex: 1;
+    width:100%;
+    height:100%;
+    padding: 10px;
+    font-size: 14px;
+   
+    text-align: center;
+    justify-content: center;
+    background-color: #efa3fddd;
+    /* background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% ); */
+  color: rgb(255, 255, 255);
+}
+
+.form-signup{
+    flex:2;
+    background-color: #e15cf3;
+/* background-image: linear-gradient(180deg, #9335ed 12%, #e92cff 50%, #edcff9 100%);     */
+width:100%;
+height:100%;
+padding: 10px;
+text-align: center;
+justify-content: center;
+color: #e0e0e0;
+}
+.signup-btn{
+    margin-top: 20px;
+    border:2px solid white;
+    background-color: transparent;
+    color:white;
+    font-weight: 300px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 7px;
+    width:100px;
+    height:30px;
+}
+.signin-btn{
+    margin-top: 20px;
+    border:2px solid white;
+    background-color: transparent;
+    text-align: center;
+    color:white;
+    font-weight: 300px;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 7px;
+    width:100px;
+    height:30px;
+
+}
+.forgot-password{
+    color: white;
+    font-size: 16px;
+}
+.error-message {
+    color: red;
+    font-size: 10px;
+    margin-top: 0.5em;
+  }
+  
+  .password-eye{
+    height: 20px;
+    width: 20px;
+    cursor : pointer;
+  }
